@@ -1,0 +1,3 @@
+<?php
+
+$ano = date("Y");
