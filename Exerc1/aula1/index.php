@@ -12,13 +12,14 @@ require_once "dados.php";
 
     <h1>Atividade 1</h1>
 
+    <div class="card">
     <?php
     echo("Meu nome é: " . $nome);
     ?>
-    
     <p>Moro em: <?= $cidade ?></p>
+    <h4><?php echo("Estou cursando " . $curso) ?></h4>
 
-    <h4><?php echo("Estou cursando" . $curso) ?></h4>
+    </div>
 </head>
 <body>
     
